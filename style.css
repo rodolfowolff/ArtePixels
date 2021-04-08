@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-container {
+  position:relative;
+  float: left;
+  width: 30%;
+}
+
+.menu {
+   margin: 0 auto;
+   margin-bottom: 1.2em;
+   min-width: 100px;
+   width: 70%;
+   min-height: 300px;
+   background-color: white;
+   border: 2px solid black;
+}
+
+table, tr, td {
+  border: #0e0d0d 1px solid;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+}
+
+.table-container {
+  float: right;
+  position: relative;
+  width:70%;
+}
+
+.clearOptions:after {
+
+  content: "";
+  display: table;
+  clear: both;
+}
